@@ -1,0 +1,240 @@
+
+@font-face {
+  font-family: 'Regular';
+  src :url(Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'SemiBold';
+  src :url(Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Thin';
+  src :url(Montserrat-Thin.ttf);
+}
+
+@font-face {
+  font-family: 'Raleway-Light';
+  src :url(Raleway-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Raleway-Regular';
+  src :url(Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Raleway-SemiBold';
+  src :url(Raleway-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'OpenSans-ExtraBold';
+  src :url(OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src :url(OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src :url(OpenSans-Regular.ttf);
+}
+
+body
+{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    height: 2481px;
+    text-align: center;
+
+}
+
+header
+{
+  /*J'ai remarqué que le header n'était pas parfaitement centré par rapport à la balise Section. Ce qui suit n'est probablement pas la solution la plus adaptée.*/
+    position:relative;
+    right:70;
+}
+
+#bloc
+{
+  display : flex;
+  flex-direction: column;
+
+}
+
+
+header h1
+{
+  text-transform: uppercase;
+  font-family: Regular;
+  line-height: 98%
+}
+
+#ligne1
+{
+  font-family: OpenSans-ExtraBold;
+  font-weight: bold;
+
+}
+
+#ligne2
+{
+  font-family: OpenSans-ExtraBold;
+  font-weight: bold;
+  color: rgb(254, 143, 35);
+  font-size: 1.2em;
+  letter-spacing: 1px;
+
+}
+
+#ligne3
+{
+  font-family: Thin;
+  color: rgb(109, 109, 109);
+}
+
+header p
+{
+  font-family: Raleway-SemiBold;
+
+}
+
+section
+{
+  display: flex;
+  margin: 0px 150px 0px 150px;
+  text-align: center;
+
+}
+
+section p
+{
+  font-family: OpenSans-Regular;
+  font-size: 0.8em;
+  margin : 0px 0px 0px 0px;
+}
+
+#p
+{
+    line-height: 98%;
+    font-family: OpenSans-Regular;
+    font-size: 0.8em;
+    margin : 0px 0px 0px 0px;
+}
+
+.colonnecopie
+{
+  justify-content: space-around;
+  padding : 15px 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
+  background-color: rgb(244, 244, 244);
+  height: 220px;
+  width: 180px;
+  align-self: flex-end;
+  position:relative;
+}
+
+#colonnecentre
+{
+  justify-content: space-around;
+  padding : 15px 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
+  background-color: rgb(244, 244, 244);
+  height: 300px;
+  width: 180px;
+  position:relative;
+}
+
+.nom
+{
+  text-transform: uppercase;
+  font-family: Raleway-Regular;
+  font-size:25px;
+  margin-bottom: 15px;
+  line-height: 98%
+}
+
+.metier
+{
+  text-transform: uppercase;
+  font-family: OpenSans-ExtraBold;
+}
+
+#note
+{
+  font-family: OpenSans-Light;
+}
+
+#note strong
+{
+  font-size:25px;
+  font-family: OpenSans-ExtraBold;
+}
+
+
+#img1
+{
+  max-width: 130px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#img2
+{
+  max-width: 90px;
+  height: auto;
+  margin-bottom: 0px;
+  position:absolute;
+  bottom:0;
+  left:65;
+}
+
+#lien1
+{
+  background-color: white;
+  border-radius: 15px;
+  position:absolute;
+  bottom:30;
+  left:30;
+  height: 21px;
+  width: 150px;
+  text-decoration: none;
+  color:black;
+}
+
+#lien2
+{
+  background-color: olive;
+  border-radius: 15px;
+  position:absolute;
+  bottom:5;
+  left:30;
+  height: 21px;
+  width: 150px;
+  text-decoration: none;
+  background-color:rgb(114, 161, 7);
+  color:white;
+}
+
+#lien3
+{
+  border-radius: 15px;
+  position:absolute;
+  bottom:36;
+  left:30;
+  height: 21px;
+  width: 150px;
+  text-decoration: none;
+  background-color:rgb(97, 158, 151);
+  color:white;
+  font-family: OpenSans-Regular;
+  font-size: 0.8em;
+  margin : 0px 0px 0px 0px;
+  }
+}
