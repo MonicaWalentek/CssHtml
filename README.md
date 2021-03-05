@@ -1,2 +1,4 @@
 # CssHtml
-Exemple d'utilisation d'HTML/CSS
+Voici un exemple d'utilisation d'HTML/CSS
+Le but de l'exercice étant de reproduire l'image maquette.jpg
+L'exercice utilise à 100% du HTML/CSS, aucun autre outils n'a été utilisé
