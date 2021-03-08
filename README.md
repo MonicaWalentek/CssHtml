@@ -1,5 +1,4 @@
-# CssHtml
-Voici un exemple d'utilisation d'HTML/CSS.
-Le but de l'exercice étant de reproduire le plus fidèlement possible l'image maquette.jpg
-L'exercice utilise à 100% du HTML/CSS, aucun autre outils n'a été utilisé.
-Le résultat est observable avec le fichier Résultat.png
+# Exemple de mes compétences en HTML/CSS
+- Le but de l'exercice était de reproduire le plus fidèlement possible l'image **maquette.jpg**
+- L'exercice n'utilise que du **HTML** et du **CSS**.
+- Le résultat est observable avec le fichier **Résultat.png**
